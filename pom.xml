@@ -24,6 +24,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+<<<<<<< HEAD
         <!--thymeleaf模板-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -37,6 +38,8 @@
             <optional>true</optional>
         </dependency>
 
+=======
+>>>>>>> b55abfca9f9a3335ebeeb6b40b4ac5d09daff8fe
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -50,16 +53,22 @@
         </dependency>
     </dependencies>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b55abfca9f9a3335ebeeb6b40b4ac5d09daff8fe
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+<<<<<<< HEAD
                 <version>2.2.6.RELEASE</version>
                 <configuration>
                     <fork>true</fork>
                 </configuration>
+=======
+>>>>>>> b55abfca9f9a3335ebeeb6b40b4ac5d09daff8fe
             </plugin>
         </plugins>
     </build>
