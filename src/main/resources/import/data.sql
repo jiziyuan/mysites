@@ -1,0 +1,1 @@
+insert into users (account,password,`name`,grander,mobile) values("sysadmin","123456","管理员",0,"18679067585");
