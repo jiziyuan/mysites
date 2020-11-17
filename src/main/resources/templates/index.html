@@ -4,10 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <script src="../static/js/jquery-3.5.1.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/vue.min.js"></script>
 </head>
 <body>
 
-<h1>哈哈哈哈哈哈</h1>
+      <!--  <div id="app">
+            <li v-for="item in items">
+                {{item.message}}
+            </li>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script>
+            const app = new Vue({
+                el:'#app',
+                data:{
+                    items: [
+                        {message: 'haha'},
+                        {message: 'lala'}
+                    ]
+                }
+            })
+        </script>-->
+
+
+        <div id="vueApp" class="btn btn-primary">测试vue
+            <li v-for="item in items">
+                {{item.message}}
+            </li>
+        </div>
+        <script type="text/javascript">
+            var App = new Vue({
+                el:'#vueApp',
+                data:{
+                    items: [
+                        {message: '1111111'},
+                        {message: '2222222'}
+                    ]
+                }
+            });
+        </script>
 
 <!--<h3>
     <span th:text="${key}"></span>
